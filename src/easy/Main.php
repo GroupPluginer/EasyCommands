@@ -15,7 +15,7 @@ use pocketmine\text\TextFormat as Color;
     
    public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
     if($sender->isOp()){
-     switch($cmd->getName()({
+     switch($cmd->getName()){
      case 'gm1':
       $sender->setGamemode(1);
       $sender->sendMessage(Color::GREEN."Done you now Gamemode 1");
