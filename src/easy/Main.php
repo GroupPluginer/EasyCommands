@@ -22,7 +22,7 @@ use pocketmine\text\TextFormat as Color;
        } else {
        $sender->sendMessage(Color::RED."YOU NOT OP");
         break;
-     case 'hl':
+      case 'hl':
         if($sender->isOp()){
         $sender->setHealth(20);
         } else {
