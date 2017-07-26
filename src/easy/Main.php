@@ -30,3 +30,4 @@ use pocketmine\text\TextFormat as Color;
      }
     }
    }
+  }
