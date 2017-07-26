@@ -3,3 +3,8 @@ main: easy\Main
 version: 1.0v
 api: 3.0.0
 author: pluginer_mt
+commands:
+  gm1:
+      description: set Gamemode 1
+  hl:
+      description: set Health
