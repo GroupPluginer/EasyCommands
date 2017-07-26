@@ -21,7 +21,8 @@ use pocketmine\text\TextFormat as Color;
       $sender->sendMessage(Color::GREEN."Done you now Gamemode 1");
        }else{
        $sender->sendMessage(Color::RED."YOU NOT OP");
-        break;
+        }
+       break;
       case 'hl':
         if($sender->isOp()){
         $sender->setHealth(20);
