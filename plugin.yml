@@ -1,7 +1,7 @@
 name: EasyCommands
 main: easy\Main
 version: 1.0v
-api: 3.0.0
+api: 3.0.0-ALPHA5
 author: pluginer_mt
 commands:
   gm1:
