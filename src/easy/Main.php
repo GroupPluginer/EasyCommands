@@ -5,7 +5,7 @@ namespace easy;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\text\TextFormat as Color;
+use pocketmine\utils\TextFormat as Color;
 
  class Main extends PluginBase{
  
