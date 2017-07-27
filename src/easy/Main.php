@@ -26,7 +26,16 @@ use pocketmine\utils\TextFormat as Color;
       case 'hl':
         if($sender->isOp()){
         $sender->setHealth(20);
+        $sender->sendMessage(Color::GREEN."Done Now Your Health Full");
         }else{
+        $sender->sendMessage(Color::RED."YOU NOT OP");
+        }
+       break;
+      case 'f':
+       if($sender->isOp()){
+        $sender->setAllowFlight(true);
+        $sender->sendMessage(Color::GREEN."Done Now You Can Fly");
+       }else{
         $sender->sendMessage(Color::RED."YOU NOT OP");
      }
     }
