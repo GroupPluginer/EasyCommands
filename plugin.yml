@@ -8,3 +8,5 @@ commands:
       description: set Gamemode 1
   hl:
       description: set Health
+  f:
+      description: fly
