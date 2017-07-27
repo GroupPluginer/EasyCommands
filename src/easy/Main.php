@@ -33,7 +33,10 @@ use pocketmine\utils\TextFormat as Color;
        break;
       case 'f':
        if($sender->isOp()){
-        $sender->setAllowFlight(true);
+        if($sender->getAllowFlight() == true){
+         $sender->setAllowFlight(false);
+        }else{
+         $sender->setAllowFlight(true);
         $sender->sendMessage(Color::GREEN."Done Now You Can Fly");
        }else{
         $sender->sendMessage(Color::RED."YOU NOT OP");
